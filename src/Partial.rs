@@ -1,3 +1,3 @@
-pub fn Partial__crashWith(mut msg: crate::UnknownType) -> crate::UnknownType {
-    panic!("{}", msg.init_string.as_ref().unwrap());
+pub fn Partial__crashWith(mut msg: String) -> crate::UnknownType {
+    panic!("{}", msg);
 }
